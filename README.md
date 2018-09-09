@@ -4,9 +4,9 @@ This repo is developed for containerized application CI-CD process on Kubernetes
 ***Build*** docker image and push to docker registry with new tag(Tag is created based on the git commit branch). The built docker image will be used for deployment in all the environment across all data centers.
  
 ***Deploy*** to Marathon/Aurora in different environments based on git commit branch. For example,
-Commit to feature branch - will get deployed to dev environment which is dedicated to developers for their ci-cd
-develop branch – will get deployed to qa across all data centers.
-master/release/hotfix – will get deployed to qa, staging, and production across all data centers.( Need to discuss on this)
+- Commit to feature branch - will get deployed to dev environment which is dedicated to developers for their ci-cd
+- develop branch – will get deployed to qa across all data centers.
+- master/release/hotfix – will get deployed to qa, staging, and production across all data centers.( Need to discuss on this)
  
 ***Application Status Checks:*** it will check application heath check before moving to next deployment. For instance,  if changes are from develop branch,  it will trigger deployment on qa environment across all datacenters and check for application status, upon success status, it will go to next environment based on the project branching strategy.
  
