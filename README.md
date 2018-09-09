@@ -49,11 +49,11 @@ The Nodes/Slaves are chosen from the master by Node-Label,  its very convenient 
  
 ## Reference:
  
-Jenkins pipeline: https://jenkins.io/doc/book/pipeline/
-Jenkins Shared Library: https://jenkins.io/doc/book/pipeline/shared-libraries/
-Git branching strategy: https://www.atlassian.com/git/tutorials/comparing-workflows
-Kuberentes client(kubectl): https://kubernetes.io/docs/tasks/tools/install-kubectl/
-Kuberentes: https://kubernetes.io/blog/2018/04/30/zero-downtime-deployment-kubernetes-jenkins/
-Marathon api : https://dcos.io/docs/1.9/deploying-services/marathon-api/
-Aurora client : http://aurora.apache.org/documentation/0.7.0-incubating/client-commands/
+- Jenkins pipeline: https://jenkins.io/doc/book/pipeline/
+- Jenkins Shared Library: https://jenkins.io/doc/book/pipeline/shared-libraries/
+- Git branching strategy: https://www.atlassian.com/git/tutorials/comparing-workflows
+- Kuberentes client(kubectl): https://kubernetes.io/docs/tasks/tools/install-kubectl/
+- Kuberentes: https://kubernetes.io/blog/2018/04/30/zero-downtime-deployment-kubernetes-jenkins/
+- Marathon api : https://dcos.io/docs/1.9/deploying-services/marathon-api/
+- Aurora client : http://aurora.apache.org/documentation/0.7.0-incubating/client-commands/
  
