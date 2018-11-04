@@ -23,7 +23,7 @@ Following jenkins components are used for this CI-CD flow.
  
 The Jenkinsfile is essentially our Jenkins Workflow, a script, that defines the CI/CD pipeline logic for a project with steps to build/test/deploy etc. captured in various stages. And this jenkinsfile should be reside in source code parent directory.
  
-Sample cperecon Jenkinsfile: https://github.comcast.com/xpcs/cperecon/blob/feature/revanth-docker/Jenkinsfile
+Todo: Smaple Jenkinsfile:
  
 ## Jenkins Pipeline with Multibranch workflow
  
@@ -38,9 +38,7 @@ Jenkins multibranch workflow will enable us to maintain our CI/CD workflow logic
 ## Jenkins Shared Libraries
  
 It will help to keep just one pipeline configuration for all your projects. The idea is that our standard pipeline configuration resides in a shared repository that will be accessed for each of your projects. Each project will then only set specific properties into its own Jenkinsfile.
- 
-Githup repo: https://github.comcast.com/xpcs/jenkins_shared_library
- 
+  
 ## Jenkins slave pool
  
 The Nodes/Slaves are chosen from the master by Node-Label,  its very convenient way to use slave pool with label name, which will simply get connected to the first available slave node, which usually results in the best overall turn-around time.
